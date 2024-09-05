@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 200%;
+}
+.navbar {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  justify-content: flex-start;
+}
+#box-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 350px;
+  margin-left: 100px;
+}
+.logo {
+  background: url(logo.png);
+  height: 75px;
+  width: 140px;
+  margin-bottom: 55px;
+  background-size: cover;
+  justify-content: center;
+}
+#but {
+  height: 30px;
+  width: 60px;
+  border: none;
+  background-color: #ffffff;
+  font-size: large;
+  margin-left: 20px;
+}
+#box-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+}
+.searchline {
+  border: none;
+  font-size: medium;
+}
+#magni-glass{
+  margin-right:2px ;
+}
+.nav-search {
+  border-bottom: 1px solid #302020;
+  margin-right: 29px;
+}
+.ind {
+  height: 30px;
+  width: 50px;
+  margin-left: 29px;
+}
+.fa-heart {
+  margin-right: 20px;
+  font-size: 30px;
+}
+.fa-bag-shopping {
+  font-size: 28px;
+  margin: 20px;
+}
+
+/** main body starts here **/
+.pay {
+  display: flex;
+  height: 595px;
+  width: 100%;
+  background-size: cover;
+}
+.squres{
+  display:flex;
+  flex-wrap: wrap;
+  width: 1680px;
+  justify-content: space-evenly;
+}
+.ad {
+
+  background-size: cover;
+  height: 300px;
+  width: 390px;
+  border: 2px solid rgb(2, 1, 1);
+  margin:5px;
+ 
+}
